@@ -1,0 +1,4 @@
+
+* /authors, /project, /publication... are default page types, cannot change
+  If any md file in /home specify the page type, will display the corresponding pages
+  * Example: activities in /home has page type: project, therefore display all pages in /project
