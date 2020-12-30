@@ -26,9 +26,7 @@ content:
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
   - name: All
-    tag: '*'
-  - name: Projects
-    tag: Projects
+    tag: Activities
   - name: Public Service
     tag: Public Service
   - name: Interests

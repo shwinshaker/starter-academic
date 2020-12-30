@@ -71,9 +71,9 @@ highlight_name: false
 
 \- *Curiosity and Enthusiasm* \-
 
-Welcome to Chengyu Dong's homepage! My name in Chinese is 董(supervise)城(city wall)昱(sunlight). I am an enthusiastic researcher in machine learning, particularly interested in robust learning and few-shot learning. My vision is to uncover the learning process in a principled way. I was a researcher in astronomy, interested in solar system dynamics.
+Welcome to Chengyu Dong's homepage! My name in Chinese is 董(supervise)城(city wall)昱(sunlight :sunny:). I am an enthusiastic researcher in machine learning, particularly interested in robust learning and few-shot learning. My vision is to uncover the learning process in a principled way. I was a researcher in astronomy, interested in solar system dynamics.
 
-I love soccer:soccer:. I used to play every week before the pandemic era. My favourite club is [Dortmund](https://www.bundesliga.com/en/bundesliga/clubs/borussia-dortmund/news). DM me if you want to watch soccer games together.
+I love soccer :soccer:. I used to play every week before the pandemic era. My favourite club is [Dortmund](https://www.bundesliga.com/en/bundesliga/clubs/borussia-dortmund/news). DM me if you want to watch soccer games together :dog:!
 
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
