@@ -1,6 +1,6 @@
 ---
 title: Monte-Carlo simulations on the H2 exosphere of Titan
-summary: study the distribution and behaviours of Hydrogen particles in the exosphere of Titan under external gravitational perturbations
+summary: Study the distribution and behaviours of Hydrogen particles in the exosphere of Titan under external gravitational perturbations
 tags:
 - Research
 - Astronomy

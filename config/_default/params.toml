@@ -266,6 +266,8 @@ plugins_js  = []
 ############################
 ## Marketing
 ############################
+# fix not working issue:
+# https://github.com/wowchemy/wowchemy-hugo-modules/issues/1368#issuecomment-594216475
 [marketing]
   google_analytics = "G-TSB5R8NKGX"
 # google_tag_manager = "G-TSB5R8NKGX"

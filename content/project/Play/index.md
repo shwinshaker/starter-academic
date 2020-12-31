@@ -39,12 +39,12 @@ These are some of the stage plays I acted in.
 * **Americal Love Story**
 
 A touching story about young men and women struggling to survive in America and looking for true love
-![](lovestory1.jpeg)
+[![linktovideo](lovestory1.jpeg)](https://www.youtube.com/watch?v=4mctwK7Clhw&feature=youtu.be)
 
 * **Kong Yiji (孔乙己)**
 
 Adapted from Lu xun (鲁迅)'s famous novel Kong Yiji. The play reflects the human nature in old China.
-![](kong1.jpeg)
+[![linktovideo](kong1.jpeg)](https://www.youtube.com/watch?v=GoQzBICqnY0&feature=youtu.be)
 
 * **Monkeys (群猴)**
 
