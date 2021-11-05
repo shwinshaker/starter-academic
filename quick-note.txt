@@ -1,0 +1,8 @@
+
+
+Hugo quick start:
+- https://gohugo.io/getting-started/quick-start/
+
+Push to server:
+- push `public`
+- push entire source dir
