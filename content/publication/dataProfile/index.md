@@ -1,5 +1,5 @@
 ---
-title: "Data Profiling for Adversarial Training: On the Ruin of Problematic Data"
+title: "Data Quality Matters For Adversarial Training: An Empirical Study"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -14,11 +14,11 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2021-01-01T00:00:00Z"
+date: "2021-02-15T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-01-01T00:00:00Z"
+publishDate: "2021-02-15T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -30,7 +30,7 @@ publication_types: ["3"]
 publication: In *preprint*
 publication_short: In *preprint*
 
-abstract: Multiple intriguing problems hover in adversarial training, including robustness-accuracy trade-off, robust overfitting, and gradient masking, posing great challenges to both reliable evaluation and practical deployment. Here, we show that these problems share one common cause -- low quality samples in the dataset. We first identify an intrinsic property of the data called problematic score and then design controlled experiments to investigate its connections with these problems. Specifically, we find that when problematic data is removed, robust overfitting and gradient masking can be largely alleviated; and robustness-accuracy trade-off is more prominent for a dataset containing highly problematic data. These observations not only verify our intuition about data quality but also open new opportunities to advance adversarial training. Remarkably, simply removing problematic data from adversarial training, while making the training set smaller, yields better robustness consistently with different adversary settings, training methods, and neural architectures.
+abstract: Multiple intriguing problems are hovering in adversarial training, including robust overfitting, robustness overestimation, and robustness-accuracy trade-off. These problems pose great challenges to both reliable evaluation and practical deployment. Here, we empirically show that these problems share one common cause -- low-quality samples in the dataset. Specifically, we first propose a strategy to measure the data quality based on the learning behaviors of the data during adversarial training and find that low-quality data may not be useful and even detrimental to the adversarial robustness. We then design controlled experiments to investigate the interconnections between data quality and problems in adversarial training. We find that when low-quality data is removed, robust overfitting and robustness overestimation can be largely alleviated; and robustness-accuracy trade-off becomes less significant. These observations not only verify our intuition about data quality but may also open new opportunities to advance adversarial training.
 
 # Summary. An optional shortened abstract.
 summary: Multiple problems in adversarial training including robustness-accuracy trade-off, robust overfitting, and gradient masking share one commnon cause -- low quality samples in the dataset.

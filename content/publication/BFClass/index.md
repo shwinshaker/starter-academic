@@ -1,24 +1,25 @@
 ---
-title: "Average Approximates First Principal Component? An Empirical Analysis on Representations from Neural Language Models"
+title: "BFClass: A Backdoor-free Text Classification Framework"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Zihan Wang
+- Zichao Li
+- Dheeraj Mekala
 - admin
 - Jingbo Shang
 
 # Author notes (optional)
 # author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
+- "Equal contribution"
+- "Equal contribution"
 
-date: "2020-11-01T00:00:00Z"
+date: "2021-05-22T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-04-18T00:00:00Z"
+publishDate: "2021-09-22T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -30,10 +31,10 @@ publication_types: ["1"]
 publication: In *EMNLP 2021*
 publication_short: In *EMNLP*
 
-abstract: Contextualized representations based on neural language models have furthered the state of the art in various NLP tasks. Despite its great success, the nature of such representations remains a mystery. In this paper, we present an empirical property of these representations --- *average ~ first principal component*. Specifically, experiments show that the average of these representations shares almost the same direction as the first principal component of the matrix whose columns are these representations. We believe this explains why the average representation is always a simple yet strong baseline. Our further examinations show that this property also holds in more challenging scenarios, for example, when the representations are from a model right after its random initialization. Therefore, we conjecture that this property is intrinsic to the distribution of representations and not necessarily related to the input structure. We realize that these representations empirically follow a normal distribution for each dimension, and by assuming this is true, we demonstrate that the empirical property can be in fact derived mathematically.
+abstract: Backdoor attack introduces artificial vulnerabilities into the model by poisoning a subset of the training data via injecting triggers and modifying labels. Various trigger design strategies have been explored to attack text classifiers, however, defending such attacks remains an open problem. In this work, we propose BFClass, a novel efficient backdoor-free training framework for text classification. The backbone of BFClass is a pre-trained discriminator that predicts whether each token in the corrupted input was replaced by a masked language model. To identify triggers, we utilize this discriminator to locate the most suspicious token from each training sample and then distill a concise set by considering their association strengths with particular labels. To recognize the poisoned subset, we examine the training samples with these identified triggers as the most suspicious token, and check if removing the trigger will change the poisoned model's prediction. Extensive experiments demonstrate that BFClass can identify all the triggers, remove 95% poisoned training samples with very limited false alarms, and achieve almost the same performance as the models trained on the benign training data.
 
 # Summary. An optional shortened abstract.
-summary: The average of contextualized representations shares almost the same direction as the first principal component of the matrix whose columns are these representations. We believe this explains why the average representation is always a simple yet strong baseline.
+summary:
 
 tags: []
 
@@ -45,19 +46,19 @@ featured: true
 # - name: Video
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2104.08673'
-url_code: ''
+url_pdf: "https://arxiv.org/abs/2109.10855"
+url_code: "https://github.com/dheeraj7596/BFClass"
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: ""
 url_source: ''
-url_video: ''
+url_video:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: '' # 'Our method can save about 50% training time for ResNet.'
+  caption:
   focal_point: "smart"
   preview_only: false
 

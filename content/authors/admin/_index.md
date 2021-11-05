@@ -24,7 +24,11 @@ interests:
 # Education to show in About widget
 education:
   courses:
+  - course: Ph.D. in Computer Science (in progress)
+    # institution: Department of Computer Science and Engineering, University of California, San Diego
+    institution: University of California, San Diego
   - course: M.S. in Computer Science
+    # institution: Department of Computer Science and Engineering, University of California, San Diego
     institution: University of California, San Diego
     year: 2020
   - course: M.S. in Astrometry and Celestial Mechanics

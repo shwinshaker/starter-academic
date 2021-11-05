@@ -1,12 +1,12 @@
 ---
-title: "Average Approximates First Principal Component? An Empirical Analysis on Representations from Neural Language Models"
+title: "Double Descent in Adversarial Training: An Implicit Label Noise Perspective"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Zihan Wang
 - admin
+- Liyuan Liu
 - Jingbo Shang
 
 # Author notes (optional)
@@ -14,26 +14,26 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2020-11-01T00:00:00Z"
+date: "2021-10-15T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-04-18T00:00:00Z"
+publishDate: "2021-10-15T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *EMNLP 2021*
-publication_short: In *EMNLP*
+publication: In *preprint*
+publication_short: In *preprint*
 
-abstract: Contextualized representations based on neural language models have furthered the state of the art in various NLP tasks. Despite its great success, the nature of such representations remains a mystery. In this paper, we present an empirical property of these representations --- *average ~ first principal component*. Specifically, experiments show that the average of these representations shares almost the same direction as the first principal component of the matrix whose columns are these representations. We believe this explains why the average representation is always a simple yet strong baseline. Our further examinations show that this property also holds in more challenging scenarios, for example, when the representations are from a model right after its random initialization. Therefore, we conjecture that this property is intrinsic to the distribution of representations and not necessarily related to the input structure. We realize that these representations empirically follow a normal distribution for each dimension, and by assuming this is true, we demonstrate that the empirical property can be in fact derived mathematically.
+abstract: Here, we show that the robust overfitting shall be viewed as the early part of an epoch-wise double descent -- the robust test error will start to decrease again after training the model for a considerable number of epochs. Inspired by our observations, we further advance the analyses of double descent to understand robust overfitting better. In standard training, double descent has been shown to be a result of label flipping noise. However, this reasoning is not applicable in our setting, since adversarial perturbations are believed not to change the label. Going beyond label flipping noise, we propose to measure the mismatch between the assigned and (unknown) true label distributions, denoted as \emph{implicit label noise}. We show that the traditional labeling of adversarial examples inherited from their clean counterparts will lead to implicit label noise. Towards better labeling, we show that predicted distribution from a classifier, after scaling and interpolation, can provably reduce the implicit label noise under mild assumptions. In light of our analyses, we tailored the training objective accordingly to effectively mitigate the double descent and verified its effectiveness on three benchmark datasets.
 
 # Summary. An optional shortened abstract.
-summary: The average of contextualized representations shares almost the same direction as the first principal component of the matrix whose columns are these representations. We believe this explains why the average representation is always a simple yet strong baseline.
+summary:
 
 tags: []
 
@@ -45,7 +45,7 @@ featured: true
 # - name: Video
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2104.08673'
+url_pdf: 'https://arxiv.org/abs/2110.03135'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -57,7 +57,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: '' # 'Our method can save about 50% training time for ResNet.'
+  caption: # 'robust overfitting shall be viewed as the early part of an epoch-wise double descent'
   focal_point: "smart"
   preview_only: false
 
