@@ -1,5 +1,5 @@
 ---
-title: "Label Noise in Adversarial Training: A Novel Perspective to Study Robust Overfitting"
+title: "SoTeacher: Toward Student-Oriented Teacher Network Training For Knowledge Distillation"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -14,27 +14,27 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2021-10-15T00:00:00Z"
+date: "2022-10-15T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-10-15T00:00:00Z"
+publishDate: "2022-10-15T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *36th Conference on Neural Information Processing Systems (Oral presentation)*
-publication_short: In *NeurIPS 2022*
+publication: In *preprint*
+publication_short: In *preprint*
 
-abstract: We show that label noise exists in adversarial training. Such label noise is due to the mismatch between the true label distribution of adversarial examples and the label inherited from clean examples – the true label distribution is distorted by the adversarial perturbation, but is neglected by the common practice that inherits labels from clean examples. Recognizing label noise sheds insights on the prevalence of robust overfitting in adversarial training, and explains its intriguing dependence on perturbation radius and data quality. Also, our label noise perspective aligns well with our observations of the epoch-wise double descent in adversarial training. Guided by our analyses, we proposed a method to automatically calibrate the label to address the label noise and robust overfitting. Our method achieves consistent performance improvements across various models and datasets without introducing new hyper-parameters or additional tuning.
+abstract: How to train an ideal teacher for knowledge distillation is still an open problem. It has been widely observed that a best-performing teacher does not necessarily yield the best-performing student, suggesting a fundamental discrepancy between the current practice in teacher training and the distillation objective. To fill this gap, we explore the feasibility of training a teacher that is oriented toward stu- dent performance with empirical risk minimization. Our analyses are inspired by the recent findings that the effectiveness of knowledge distillation hinges on the teacher’s capability to approximate the true label distribution of training inputs. We theoretically established that (1) the empirical risk minimizer can provably approximate the true label distribution of training data if the loss function is a proper scoring rule and the hypothesis function is locally-Lipschitz continuous around training inputs; and (2) when data augmentation is employed for training, an additional constraint is required that the minimizer has to produce consistent predictions across augmented views of the same training input. In light of our theory, we propose a teacher training method SoTeacher which renovates the em- pirical risk minimization by incorporating Lipschitz regularization and consistency regularization. Experiments on two benchmark datasets confirm that SoTeacher can improve student performance significantly and consistently across various knowledge distillation algorithms and teacher-student pairs.
 
 
 # Summary. An optional shortened abstract.
-summary: We show that label noise implicitly exists in adversarial training and can explain robust overfitting. We also found that robust overfitting is in fact a part of an epoch-wise double descent.
+summary: We show that label noise implicitly exists in adversarial training and can explain robust overfitting as well as its intriguing behaviors.
 
 tags: []
 
@@ -46,12 +46,12 @@ featured: true
 # - name: Video
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2110.03135'
+url_pdf: 'https://arxiv.org/abs/2206.06661'
 url_code: ''
 url_dataset: ''
-url_poster: 'https://nips.cc/media/PosterPDFs/NeurIPS%202022/53516.png?t=1669836424.01432'
+url_poster: ''
 url_project: ''
-url_slides: 'https://nips.cc/media/neurips-2022/Slides/53516.pdf'
+url_slides: ''
 url_source: ''
 url_video: ''
 
@@ -91,5 +91,3 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 <!--
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
 -->
-
-**TL;DR**: We show that label noise implicitly exists in adversarial training and can explain robust overfitting. We also found that robust overfitting is a part of an epoch-wise double descent.

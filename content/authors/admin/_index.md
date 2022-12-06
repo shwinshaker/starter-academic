@@ -27,16 +27,16 @@ education:
   - course: Ph.D. in Computer Science (in progress)
     # institution: Department of Computer Science and Engineering, University of California, San Diego
     institution: University of California, San Diego
-  - course: M.S. in Computer Science
-    # institution: Department of Computer Science and Engineering, University of California, San Diego
-    institution: University of California, San Diego
-    year: 2020
-  - course: M.S. in Astrometry and Celestial Mechanics
-    institution: Nanjing University
-    year: 2018
-  - course: B.S. in Astronomy
-    institution: Nanjing University
-    year: 2016
+  # - course: M.S. in Computer Science
+  #   # institution: Department of Computer Science and Engineering, University of California, San Diego
+  #   institution: University of California, San Diego
+  #   year: 2020
+  # - course: M.S. in Astrometry and Celestial Mechanics
+  #   institution: Nanjing University
+  #   year: 2018
+  # - course: B.S. in Astronomy
+  #   institution: Nanjing University
+  #   year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -78,7 +78,7 @@ highlight_name: false
 
 \- *Curiosity and Enthusiasm* \-
 
-Welcome to Chengyu Dong's homepage! My name in Chinese is 董(supervise)城(city wall)昱(sunlight :sunny:). I am an enthusiastic researcher in machine learning, particularly interested in robust learning and few-shot learning. My vision is to uncover the learning process in a principled way. I was a researcher in astronomy, interested in solar system dynamics.
+Welcome to Chengyu Dong's homepage! My name in Chinese is 董(supervise)城(city wall)昱(sunlight :sunny:). I am an enthusiastic researcher in machine learning, particularly interested in robust learning and efficient learning. My vision is to uncover the learning process in a principled way. I was a researcher in astronomy, interested in solar system dynamics.
 
 I love soccer :soccer:. I used to play every week before the pandemic era. My favourite club is [Dortmund](https://www.bundesliga.com/en/bundesliga/clubs/borussia-dortmund/news). DM me if you want to watch soccer games together :dog:!
 
