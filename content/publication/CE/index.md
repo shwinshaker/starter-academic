@@ -37,7 +37,7 @@ summary: Explore the close encounters between Plutinos and Neptune Trojans and t
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false # true
 
 # Custom links (uncomment lines below)
 # links:

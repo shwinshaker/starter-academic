@@ -18,15 +18,15 @@ bio: Curiosity and Enthusiasm
 
 # Interests to show in About widget
 interests:
-- Machine Learning
-- Natural Language Processing
+# - Machine Learning
+# - Natural Language Processing
 
 # Education to show in About widget
 education:
-  courses:
-  - course: Ph.D. in Computer Science (in progress)
-    # institution: Department of Computer Science and Engineering, University of California, San Diego
-    institution: University of California, San Diego
+#   courses:
+#   - course: Ph.D. in Computer Science (in progress)
+#     # institution: Department of Computer Science and Engineering, University of California, San Diego
+#     institution: University of California, San Diego
   # - course: M.S. in Computer Science
   #   # institution: Department of Computer Science and Engineering, University of California, San Diego
   #   institution: University of California, San Diego
@@ -45,13 +45,13 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=justindongchengyu@gmail.com
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/chengyu77
-# - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-#   icon_pack: fas
-#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=Ppfi7j0AAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/shwinshaker
@@ -74,13 +74,27 @@ email: ""
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
+# * Soccer is my life:soccer:. I play every week. My favourite club is [Dortmund](https://www.bundesliga.com/en/bundesliga/clubs/borussia-dortmund/news). DM me if you want to watch soccer games together :dog:!
 ---
 
-\- *Curiosity and Enthusiasm* \-
+<!-- \- *Curiosity and Enthusiasm* \- -->
 
-Welcome to Chengyu Dong's homepage! My name in Chinese is 董(supervise)城(city wall)昱(sunlight :sunny:). I am an enthusiastic researcher in machine learning, particularly interested in robust learning and efficient learning. My vision is to uncover the learning process in a principled way. I was a researcher in astronomy, interested in solar system dynamics.
+<!-- # Welcome to Chengyu Dong's homepage! -->
+I am a PhD student in Computer Science at UCSD. I am interested in efficient and robust machine learning, as well as their applications to natural language processing. My vision is to build efficient and robust learning systems *in a principled way*.
+<!-- I want to do things that are not those will be done by someone else next month if I didn’t do it. -->
 
-I love soccer :soccer:. I used to play every week before the pandemic era. My favourite club is [Dortmund](https://www.bundesliga.com/en/bundesliga/clubs/borussia-dortmund/news). DM me if you want to watch soccer games together :dog:!
+My expectation on my research (If cannot achieve them both)
+* I prefer solid more than novel
+* I prefer simple more than comprehensive
+* I prefer useful more than beautiful
+
+
+Fun facts about me:
+* My name in Chinese is 董(Dong, means supervise)城(Cheng, means city wall)昱(yu, means sunlight :sunny:). <!-- * I was a researcher in physics and astronomy.  -->
+* My previous research focus was Physics and Astronomy, in particular [Solar System Dynamics](https://www.youtube.com/watch?v=-J4Gx9pvgqU), that means the motion of any objects outside Earth and within our solar system (Yes, you are right! [The three-body problem](https://en.wikipedia.org/wiki/Three-body_problem)!)
+* Football ([or soccer?](https://www.goal.com/en-us/news/football-or-soccer-name-game-explained/blt5502fa82bb1a4f17)) is my life. I play and watch games every week, rain or shine. DM me if you want to watch or play together :dog:! Football forever :soccer:!
+* I love drama. I read (and hopefully also write in the near future) drama scripts and act in stage plays. My favourite playwright is [Harold Pinter](http://www.haroldpinter.org/home/index.shtml).
+* I am an "evil" photoshopper. DM me if you have any funny [photoshop requests](https://www.reddit.com/r/PhotoshopRequest/) and expect trolling.
 
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

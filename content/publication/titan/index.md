@@ -44,7 +44,7 @@ summary:  The extension of the CH4 torus around Titan depends critically on the 
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false # true
 
 # Custom links (uncomment lines below)
 # links:

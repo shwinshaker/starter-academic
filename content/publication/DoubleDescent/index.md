@@ -14,7 +14,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2021-10-15T00:00:00Z"
+date: "2022-06-15T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -34,7 +34,7 @@ abstract: We show that label noise exists in adversarial training. Such label no
 
 
 # Summary. An optional shortened abstract.
-summary: We show that label noise implicitly exists in adversarial training and can explain robust overfitting. We also found that robust overfitting is in fact a part of an epoch-wise double descent.
+summary: We theoretically and empirically demonstrate that label noise implicitly exists in adversarial training and can explain the pervasive and intriguing robust overfitting phenomenon. Robust overfitting is in fact an early part of an epoch-wise double descent.
 
 tags: []
 
@@ -92,4 +92,4 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
 -->
 
-**TL;DR**: We show that label noise implicitly exists in adversarial training and can explain robust overfitting. We also found that robust overfitting is a part of an epoch-wise double descent.
+<!-- **TL;DR**: We show that label noise implicitly exists in adversarial training and can explain robust overfitting. We also found that robust overfitting is a part of an epoch-wise double descent. -->

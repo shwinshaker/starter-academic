@@ -19,15 +19,15 @@
   url = "#featured"
   weight = 20
 
-[[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 25
+# [[main]]
+#   name = "Projects"
+#   url = "#projects"
+#   weight = 25
 
-[[main]]
-  name = "Activities"
-  url = "#activities"
-  weight = 30
+# [[main]]
+#   name = "Activities"
+#   url = "#activities"
+#   weight = 30
 
 # [[main]]
 #   name = "Experience"

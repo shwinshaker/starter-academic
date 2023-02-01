@@ -14,7 +14,7 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2022-09-15T00:00:00Z"
+date: "2021-09-15T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -34,7 +34,7 @@ abstract: Weakly supervised text classification methods typically train a deep n
 
 
 # Summary. An optional shortened abstract.
-summary: We show that label noise implicitly exists in adversarial training and can explain robust overfitting as well as its intriguing behaviors.
+summary: We leverage the persistent and consistent order of deep neural networks in learning data examples to identify high-quality pseudo-labels for text classification. Those pseudo-labels are obtained cheaply based on keyword match.
 
 tags: []
 

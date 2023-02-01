@@ -15,7 +15,8 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2020-07-01T00:00:00Z"
+date: "2021-07-01T00:00:00Z"
+# date: "2020-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -34,7 +35,7 @@ publication_short: In *ICML*
 abstract: In pursuit of resource-economical machine learning, attempts have been made to dynamically adjust computation workloads in different training stages, i.e., starting with a shallow network and gradually increasing the model depth (and computation workloads) during training. However, there is neither guarantee nor guidance on designing such network grow, due to the lack of its theoretical underpinnings. In this work, to explore the theory behind, we conduct theoretical analyses from an ordinary differential equation perspective. Specifically, we illustrate the dynamics of network growth and propose a novel performance measure specific to the depth increase. Illuminated by our analyses, we move towards theoretically sound growing operations and schedulers, giving rise to an adaptive training algorithm for residual networks, LipGrow, which automatically increases network depth thus accelerates training. In our experiments, it achieves comparable performance while reducing ∼ 50% of training time.
 
 # Summary. An optional shortened abstract.
-summary: We motivate from Neural-ODE perspective and design an adaptive training algorithm for ResNet, which can save ~50% training time.
+summary: We motivate from the Neural-ODE perspective and design an adaptive training algorithm for ResNet, which can save ~50% training time.
 
 tags: []
 

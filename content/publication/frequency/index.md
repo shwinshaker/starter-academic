@@ -37,7 +37,7 @@ summary: We estimate the frequency of close encounters and collisions between Pl
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false # true
 
 # Custom links (uncomment lines below)
 # links:
