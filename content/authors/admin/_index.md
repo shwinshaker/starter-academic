@@ -83,18 +83,18 @@ highlight_name: false
 I am a PhD student in Computer Science at UCSD. I am interested in efficient and robust machine learning, as well as their applications to natural language processing. My vision is to build efficient and robust learning systems *in a principled way*.
 <!-- I want to do things that are not those will be done by someone else next month if I didn’t do it. -->
 
-My expectation on my research (If cannot achieve them both)
-* I prefer solid more than novel
-* I prefer simple more than comprehensive
-* I prefer useful more than beautiful
+<!-- My expectation on my research (If cannot achieve them both)
+# * I prefer solid more than novel
+# * I prefer simple more than comprehensive
+# * I prefer useful more than beautiful
+-->
 
 
 Fun facts about me:
-* My name in Chinese is 董(Dong, means supervise)城(Cheng, means city wall)昱(yu, means sunlight :sunny:). <!-- * I was a researcher in physics and astronomy.  -->
+<!-- * My name in Chinese is 董(Dong, means supervise)城(Cheng, means city wall)昱(yu, means sunlight :sunny:). -->
+<!-- * I was a researcher in physics and astronomy.  -->
 * My previous research focus was Physics and Astronomy, in particular [Solar System Dynamics](https://www.youtube.com/watch?v=-J4Gx9pvgqU), that means the motion of any objects outside Earth and within our solar system (Yes, you are right! [The three-body problem](https://en.wikipedia.org/wiki/Three-body_problem)!)
-* Football ([or soccer?](https://www.goal.com/en-us/news/football-or-soccer-name-game-explained/blt5502fa82bb1a4f17)) is my life. I play and watch games every week, rain or shine. DM me if you want to watch or play together :dog:! Football forever :soccer:!
+* Football ([or soccer?](https://www.goal.com/en-us/news/football-or-soccer-name-game-explained/blt5502fa82bb1a4f17)) is my life. I play and watch games every week, rain or shine. DM me if you want to watch or play together! Football forever :soccer:!
 * I love drama. I read (and hopefully also write in the near future) drama scripts and act in stage plays. My favourite playwright is [Harold Pinter](http://www.haroldpinter.org/home/index.shtml).
-* I am an "evil" photoshopper. DM me if you have any funny [photoshop requests](https://www.reddit.com/r/PhotoshopRequest/) and expect trolling.
-
-
+<!-- * I am an "evil" photoshopper. DM me if you have any funny [photoshop requests](https://www.reddit.com/r/PhotoshopRequest/) and expect trolling. -->
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

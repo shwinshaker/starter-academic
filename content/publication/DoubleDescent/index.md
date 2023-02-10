@@ -34,7 +34,7 @@ abstract: We show that label noise exists in adversarial training. Such label no
 
 
 # Summary. An optional shortened abstract.
-summary: We theoretically and empirically demonstrate that label noise implicitly exists in adversarial training and can explain the pervasive and intriguing robust overfitting phenomenon. Robust overfitting is in fact an early part of an epoch-wise double descent.
+summary: We found that label noise implicitly exists in adversarial training and can explain the intriguing and problematic robust overfitting phenomenon. Robust overfitting is in fact an early part of an epoch-wise double descent.
 
 tags: []
 

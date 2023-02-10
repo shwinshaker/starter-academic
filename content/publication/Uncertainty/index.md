@@ -34,7 +34,8 @@ abstract: Deep neural networks have seen enormous success in various real-world 
 
 
 # Summary. An optional shortened abstract.
-summary: We generalize the definition of model uncertainty to any signal that is related to data, and review existing and potential methods on how to "mine" such a signal from deep neural networks, as well as those methods on how to utilize such a signal to improve the efficiency and robustness of learning systems.
+# summary: We generalize the definition of model uncertainty to any signal that is related to data, and review existing and potential methods on how to "mine" such a signal from deep neural networks, as well as those methods on how to utilize such a signal to improve the efficiency and robustness of learning systems.
+summary: We review existing and potential methods for improving the efficiency and robustness of learning systems by exploiting the uncertainty of deep neural networks.
 
 tags: []
 

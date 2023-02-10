@@ -35,7 +35,7 @@ abstract: How to train an ideal teacher for knowledge distillation is still an o
 
 
 # Summary. An optional shortened abstract.
-summary: How to train an ideal teacher for knowledge distillation? We call attention to the discrepancy between the current teacher training practice and the teacher training objective dedicated to student learning, and study the theoretical and practical feasibility of student-oriented teacher training.
+summary: How to train an ideal teacher for knowledge distillation? We call attention to the discrepancy between the current teacher training practice and an ideal teacher training objective dedicated to student learning, and study the theoretical and practical feasibility of student-oriented teacher training.
 
 tags: []
 
