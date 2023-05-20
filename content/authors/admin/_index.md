@@ -80,8 +80,8 @@ highlight_name: false
 <!-- \- *Curiosity and Enthusiasm* \- -->
 
 <!-- # Welcome to Chengyu Dong's homepage! -->
-I am a PhD student in Computer Science at UCSD. I am interested in the principles of efficient and robust machine learning, as well as principle-guided efficient and robust learning algorithms in realistic applications.
-<! -- My vision is to build efficient and robust learning systems *in a principled way*. -->
+I am a PhD student in Computer Science at UCSD. I am interested in the principles (and theories, if possible) of learning efficiency, including data efficiency and model efficiency, as well as principle-guided efficient learning algorithms in realistic applications. I believe learning efficiency defines intelligence.
+<!-- My vision is to build efficient and robust learning systems *in a principled way*. -->
 <!-- I want to do things that are not those will be done by someone else next month if I didn’t do it. -->
 
 <!-- My expectation on my research (If cannot achieve them both)
